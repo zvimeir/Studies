@@ -1,0 +1,116 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    direction: rtl;
+    background-image: url('./תמונה1.jpg');
+}
+
+header{
+    background-color: rgba(143, 172, 27, 0.9);
+    color: aliceblue;
+    box-shadow: 4px 4px 8px #5a5a5ac0;
+    position: sticky;
+    top: 0;
+}
+
+.h {
+    margin: 20px;
+    text-align: center;
+    color: #FFE135;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+.heade{
+   display: flex; 
+}
+
+.menu{
+    margin: 20px;
+
+}
+
+section {
+    display: flex;
+    margin: 30px; 
+    border: 1px solid black;
+}
+
+.pik {
+    width: 250px;
+    height: 250px;
+}
+
+div {
+    margin: 16px;
+}
+
+#id1 {
+    background-color: rgba(255, 225, 53, 0.9);
+    box-shadow: 4px 4px 8px #5a5a5ac0;
+}
+
+#id2 {
+    background-color:rgba(255, 249, 192, 0.9);
+    box-shadow: 4px 4px 8px #5a5a5ac0;
+}
+
+#id3 {
+    background-color: rgba(245, 224, 183, 0.9);
+    box-shadow: 4px 4px 8px #5a5a5ac0;
+}
+
+#id4 {
+    background-color: rgba(181, 154, 77, 0.9);
+    box-shadow: 4px 4px 8px #5a5a5ac0;
+}
+
+.cards {
+    display: flex;
+    overflow-x: auto;
+}
+
+
+.card {
+    width: 500px;
+    height: 300px;
+    background-color: rgba(143, 172, 27, 0.9);
+    margin: 5px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 8px #5a5a5ac0;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.banana_pik {
+    width: 100%;
+    height: 180px;
+}
+
+.banana_p {
+    text-align: center;
+    font-weight: bold;
+    overflow-wrap: break-word;
+}
+
+.finish {
+    margin: 20px;
+    direction: ltr;
+    display: block;
+}
+ .h_s{
+    margin: 20px;
+    text-align: center;
+    color: #000000;
+    text-align: center;
+    text-shadow: 2px 2px 4px #fdfdfd;
+ }
+
+ footer {
+    background-color: rgba(255, 255, 255, 0.5);
+ }
